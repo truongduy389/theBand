@@ -97,6 +97,13 @@ html{
     overflow: hidden;
 }
 
+#header .mobile-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
 #header .mobile-menu,
 #header .search{
     float: right;
@@ -146,7 +153,7 @@ html{
 }
 
 #nav li a{
-    display: inline-block;
+    display: block;
     color: #fff;
     text-decoration: none;
     line-height: 46px;
