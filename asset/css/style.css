@@ -94,9 +94,10 @@ html{
     right: 0;
     left: 0;
     z-index: 1;
-    overflow: visible;
+    overflow: hidden;
 }
 
+#header .mobile-menu,
 #header .search{
     float: right;
     padding: 0 21px;
@@ -107,6 +108,15 @@ html{
     cursor: pointer;
 }
 
+#header .mobile-menu:hover{
+    background-color: #ccc;
+}
+
+#header .mobile-menu:hover .menu-icon{
+    color: #000;
+}
+
+#header .menu-icon,
 #header .nav-icon{
     font-size: 20px;
     color: #fff ;

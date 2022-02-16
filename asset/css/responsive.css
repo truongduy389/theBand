@@ -14,4 +14,7 @@
     #nav > li {
         display: block;
     }
+    #header .search{
+        display: none;
+    }
 }
